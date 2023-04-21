@@ -2,7 +2,7 @@ pub( crate ) mod private
 {
   use crate::{ Routine, Value };
 
-  use data_type::HashMap;
+  use std::collections::HashMap;
 
   /// Commands that be executed
   #[ derive( Debug, Clone ) ]

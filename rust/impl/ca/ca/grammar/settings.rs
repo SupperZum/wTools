@@ -2,7 +2,7 @@ pub( crate ) mod private
 {
   use crate::Type;
 
-  use data_type::HashMap;
+  use std::collections::HashMap;
   use former::Former;
 
   /// Command subject description

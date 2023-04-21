@@ -13,7 +13,7 @@ pub( crate ) mod private
 
   use former::Former;
   use error_tools::{ Result, err };
-  use data_type::HashMap;
+  use std::collections::HashMap;
 
   /// Grammatically correct command
   #[ derive( Debug ) ]

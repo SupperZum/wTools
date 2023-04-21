@@ -9,7 +9,7 @@ pub( crate ) mod private
     ca::executor::runtime::_exec_command, 
   };
 
-  use data_type::HashMap;
+  use std::collections::HashMap;
   use error_tools::Result;
   use former::Former;
 

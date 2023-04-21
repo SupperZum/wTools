@@ -12,7 +12,7 @@ pub( crate ) mod private
     commands_aggregator::help::{ HelpGeneratorFn, HelpVariants },
   };
 
-  use data_type::{ HashMap, HashSet };
+  use std::collections::{ HashMap, HashSet };
   use error_tools::Result;
 
   /// CommandsAggragator

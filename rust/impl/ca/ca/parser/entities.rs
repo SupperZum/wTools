@@ -1,6 +1,6 @@
 pub( crate ) mod private
 {
-  use data_type::HashMap;
+  use std::collections::HashMap;
 
   /// Program representation
   #[ derive( Debug, Clone, PartialEq, Eq ) ]

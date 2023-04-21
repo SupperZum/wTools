@@ -2,7 +2,7 @@ pub( crate ) mod private
 {
   use crate::{ Context, Value };
 
-  use data_type::HashMap;
+  use std::collections::HashMap;
   use error_tools::Result;
 
   use std::{ fmt::Formatter, rc::Rc };
