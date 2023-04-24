@@ -9,6 +9,7 @@ members = [
 exclude = [
   "*",
   "module/move/_video_experiment",
+  "module/rust/type_constructor",
   # "module/rust/-*",
   # "sample/rust/-*",
   # "module/rust/_*",
