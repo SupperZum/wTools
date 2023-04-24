@@ -8,7 +8,8 @@ pub( crate ) mod private
     Routine, Type
   };
   
-  use wtools::Itertools;
+  //use wtools::Itertools;
+  use iter_tools::Itertools;
 
   use std::rc::Rc;
 
@@ -269,9 +270,11 @@ pub( crate ) mod private
     }
   }
 
-  impl wtools::fmt::Debug for HelpGeneratorFn
+  //impl wtools::fmt::Debug for HelpGeneratorFn
+  impl std::fmt::Debug for HelpGeneratorFn
   {
-    fn fmt( &self, f : &mut wtools::fmt::Formatter< '_ > ) -> std::fmt::Result
+    //fn fmt( &self, f : &mut wtools::fmt::Formatter< '_ > ) -> std::fmt::Result
+    fn fmt( &self, f : &mut std::fmt::Formatter< '_ > ) -> std::fmt::Result
     {
       f.write_str( "HelpGenerator" )
     }

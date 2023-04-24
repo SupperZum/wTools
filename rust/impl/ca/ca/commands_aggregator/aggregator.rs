@@ -12,7 +12,9 @@ pub( crate ) mod private
     commands_aggregator::help::{ HelpGeneratorFn, HelpVariants },
   };
 
-  use wtools::{ HashMap, Result, HashSet };
+  //use wtools::{ HashMap, Result, HashSet };
+  use std::collections::{ HashMap, HashSet };
+  use error_tools::Result;
 
   /// CommandsAggregator
   /// 

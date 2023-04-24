@@ -10,7 +10,9 @@ pub( crate ) mod private
   };
 
   use former::Former;
-  use wtools::{ HashMap, Result, err };
+  //use wtools::{ HashMap, Result, err };
+  use error_tools::{ Result, err };
+  use std::collections::HashMap;
 
   /// Converts from RawCommand to ExecutableCommand
   #[ derive( Debug ) ]

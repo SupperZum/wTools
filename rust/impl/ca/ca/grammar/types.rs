@@ -1,6 +1,7 @@
 pub( crate ) mod private
 {
-  use wtools::{ Result, err };
+  //use wtools::{ Result, err };
+  use error_tools::{ Result, err };
 
   /// -
   #[ derive( Debug, Clone, PartialEq, Eq ) ]

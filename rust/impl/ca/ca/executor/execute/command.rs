@@ -2,7 +2,8 @@ pub( crate ) mod private
 {
   use crate::{ Routine, Value };
 
-  use wtools::HashMap;
+  //use wtools::HashMap;
+  use std::collections::HashMap;
 
   /// Commands that be executed
   #[ derive( Debug, Clone ) ]

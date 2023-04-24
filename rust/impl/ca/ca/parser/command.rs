@@ -6,7 +6,8 @@ pub( crate ) mod private
     RawCommand as Command,
     parser::parser::any_word,
   };
-  use wtools::{ Result, err };
+  //use wtools::{ Result, err };
+  use error_tools::{ Result, err };
   use nom::
   {
     branch::alt,

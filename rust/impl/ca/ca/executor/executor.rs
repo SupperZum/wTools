@@ -9,7 +9,9 @@ pub( crate ) mod private
     ca::executor::runtime::_exec_command, 
   };
 
-  use wtools::{ Result, HashMap };
+  //use wtools::{ Result, HashMap };
+  use std::collections::HashMap;
+  use error_tools::Result;
 
   #[ derive( Debug ) ]
   /// TODO: THINK
