@@ -77,7 +77,7 @@ path = "sample/rust/data_type_trivial_sample/src/main.rs"
 
 [dependencies]
 either = { version = "~1.6", optional = true }
-# type_constructor = { version = "~0.1", path = "../../rust/type_constructor", optional = true }
+type_constructor = { version = "~0.1", path = "../../rust/type_constructor", optional = true }
 winterval = { version = "~0.1", path = "../../rust/winterval", optional = true, default-features = false }
 
 [dev-dependencies]
