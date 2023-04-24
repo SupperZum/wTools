@@ -5,5 +5,5 @@ edition = "2021"
 publish = false
 
 [dependencies]
-wca = { version = "~0.1", path = "../../../module/move/wca" }
-# wca = { version = "0.1.3", git = "https://github.com/rust-lang-ua/wToolsRemoveWornings", branch = "wcaWarnings"  }
+# wca = { version = "~0.1", path = "../../../module/move/wca" }
+wca = { version = "0.1.3", git = "https://github.com/rust-lang-ua/wToolsRemoveWornings", branch = "wcaWarnings"  }
