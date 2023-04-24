@@ -1,14 +1,14 @@
 
 crate::mod_interface!
 {
-  /// Command aggregator.
+  /// Parsable objects
+  layer grammar;
+  /// Program parser
+  layer parser;
+  /// Program executor
+  layer executor;
+  /// -
   layer commands_aggregator;
-  /// Command aggregator context.
-  layer context;
-  /// Handle commands.
-  layer command;
-  /// Get input.
+  /// User input
   layer input;
-  /// Handle instruction from input.
-  layer instruction;
 }

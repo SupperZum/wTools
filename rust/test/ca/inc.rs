@@ -1,15 +1,16 @@
 #[ allow( unused_imports ) ]
 use test_tools::exposed::*;
 #[ allow( unused_imports ) ]
-use wtools::meta::prelude::*;
+//use wtools::meta::prelude::*;
+use meta_tools::meta::prelude::*;
 #[ allow( unused_imports ) ]
 use std::collections::HashMap;
 
 #[ cfg( feature = "use_std" ) ]
-mod commands_aggregator_test;
+mod parser;
 #[ cfg( feature = "use_std" ) ]
-mod command_test;
+mod grammar;
 #[ cfg( feature = "use_std" ) ]
-mod instruction_test;
+mod executor;
 #[ cfg( feature = "use_std" ) ]
-mod programstate_test;
+mod commands_aggregator;

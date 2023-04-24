@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
-  "module/rust/*",
+  #"module/rust/*",
   "module/alias/*",
   "module/move/*",
   "sample/rust/*",
