@@ -1,0 +1,9 @@
+[package]
+name = "wca_warning_sample"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+# wca = { version = "~0.1", path = "../../../module/move/wca" }
+wca = { version = "0.1.3", git = "https://github.com/rust-lang-ua/wToolsRemoveWornings", branch = "wcaWarnings"  }
