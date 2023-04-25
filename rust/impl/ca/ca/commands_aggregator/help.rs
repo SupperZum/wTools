@@ -60,7 +60,7 @@ pub( crate ) mod private
 
         format!
         ( 
-          "{heading}\n{}{}{hint}\n", 
+          "{heading}\n{}{}\n{hint}\n", 
           if cmd.subjects.is_empty() { "".to_string() } else { format!( "\n\nSubjects:{}", &full_subjects ) }, 
           if cmd.properties.is_empty() { "".to_string() } else { format!( "\n\nProperties:{}",&full_properties ) }
         )
