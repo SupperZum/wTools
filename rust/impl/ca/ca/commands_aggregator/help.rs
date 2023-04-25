@@ -26,7 +26,7 @@ pub( crate ) mod private
     {
       cmd.iter().fold( String::new(), | _, cmd |
       {
-        
+
         let subjects = cmd.subjects.iter().fold( String::new(), | _, _ | format!( " `[Subject]`" ) );
         let properties = if cmd.properties.is_empty() { " " } else { " `[properties]` " };
 
@@ -60,10 +60,9 @@ pub( crate ) mod private
 
         format!
         ( 
-          "{heading}\n{hint}{}{}\n\n{}", 
+          "{heading}\n{}{}{hint}\n", 
           if cmd.subjects.is_empty() { "".to_string() } else { format!( "\n\nSubjects:{}", &full_subjects ) }, 
-          if cmd.properties.is_empty() { "".to_string() } else { format!( "\n\nProperties:{}",&full_properties ) } ,
-          if !cmd.example.is_empty() { format!("Command output example: \n{}", cmd.example ) } else { "".to_string() }
+          if cmd.properties.is_empty() { "".to_string() } else { format!( "\n\nProperties:{}",&full_properties ) }
         )
 
       })
@@ -73,8 +72,7 @@ pub( crate ) mod private
       format!( "{acc}\n\n{cmd}" )
     });
 
-    let skin = MadSkin::default();
-    skin.print_text( &format!( "{list_of_commands}\n{about_each_command}" ) );
+    println!( "{}", format!( "{list_of_commands}\n{about_each_command}" ) );
     
 
 
