@@ -2,13 +2,13 @@
 resolver = "2"
 members = [
   #"module/rust/*",
-  "module/alias/*",
-  "module/move/*",
+  #"module/alias/*",
+  #"module/move/*",
   "sample/rust/*",
 ]
 exclude = [
   "*",
-  "module/move/_video_experiment",
+  #"module/move/_video_experiment",
   # "module/rust/-*",
   # "sample/rust/-*",
   # "module/rust/_*",
