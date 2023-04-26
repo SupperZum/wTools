@@ -8,6 +8,7 @@ publish = false
 # wca = { version = "~0.1", path = "../../../module/move/wca" }
 #type_constructor = { version = "0.1.20", git = "https://github.com/SupperZum/wTools", branch = "RemoveWcaWornings"  }
 #derive_pair = { version = "0.1.0", git = "https://github.com/SupperZum/wTools", branch = "RemoveWcaWornings"  }
-derive_make = { version = "0.1.0", git = "https://github.com/SupperZum/wTools", branch = "RemoveWcaWornings"  }
+#derive_make = { version = "0.1.0", git = "https://github.com/SupperZum/wTools", branch = "RemoveWcaWornings"  }
+derive_make = { version = "0.1.0", path = "../../../module/rust/type_constructor/rust/impl/dt/type_constructor/derive_make"  }
 
 
